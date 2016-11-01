@@ -1,16 +1,16 @@
-// 1. Cấu hình cơ bản bắt buộc
+// Compulsory configuration
 module.exports = function(grunt) {     
     grunt.initConfig({
         pkg: grunt.file.readJSON('package.json'),
 
-// 2. Cấu hình cho việc nối file ở đây
+// Configuration
        watch: {
        	options: { 
        		livereload: true,
        	},
        		// HTML automate
 		   src: {
-                files: ['*.html'],
+                files: ['html/*.html'],
                 
             },
             // CSS Automate
@@ -40,10 +40,10 @@ module.exports = function(grunt) {
 
     });
 
-    // 3. Bảo Grunt rằng nó sẽ phải thực thi plug-in này
+    // Tell grunt about task
     grunt.loadNpmTasks('grunt-contrib-concat');
 
-    // 4. Bảo Grunt phải thực thi lệnh ngay lập tức ghi gõ grunt tại terminal
+    // Execute 
 
     grunt.registerTask('default', ['concat']);
 	grunt.loadNpmTasks('grunt-contrib-watch');
