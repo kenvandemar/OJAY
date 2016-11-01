@@ -1,0 +1,303 @@
+@import url('https://fonts.googleapis.com/css?family=Raleway');
+
+
+html, body, main {
+	height: 100%;
+	width: 100%;
+}
+#wrapper {
+  display: flex;
+  flex-wrap: wrap;
+}
+/*LEFT NAVIGATION*/
+
+nav {
+	width: 300px;
+	height: 900px;
+	position: absolute;
+	-webkit-transform: translate(-300px, 0);
+	transform: translate(-300px, 0);
+ 	transition: transform 0.5s ease;
+
+}
+nav.open {
+	-webkit-transform: translate(0, 0);
+	 transform: translate(0, 0);
+}
+#menu {
+	position: absolute;
+	z-index: 1;
+}
+
+#menu i {
+	margin-left: 20px;
+	font-size: 2.2em;
+	color: #D8D8D8;	
+	margin-top: 10px;	
+}
+
+
+#drawer {
+	background: #F2F2F2;
+	font-family: 'Raleway', sans-serif;
+    color: #000;
+    font-size: 15px; 
+	max-height: 640px;
+	max-width: 250px;
+	margin-top: 70px;
+	z-index: 1000;
+	
+}
+#drawer ul {
+	margin-left: 30px;
+	margin-top: 30px;
+}
+#drawer ul li {
+	margin-bottom: 17px;
+}
+#drawer ul li  a {
+	color: #000;
+}
+.refine {
+	margin-top: -20px;
+}
+
+#drawer .subNavi{
+	margin-top: 20px;
+	width: 170px;
+	height: 80px;
+}
+#drawer .subNavi li{
+	margin-bottom: 13px;
+}
+
+#close img{
+	margin-left: 160px;
+	width: 3vmax;
+	height: 4vmax;
+	margin-top: -10px;
+}
+
+
+/*THE LOGO*/
+
+
+.logo {
+	width: 15vmax;
+	height: 7vmax;
+	margin: 0 auto;
+}
+.carousel-control.left, .carousel-control.right {
+    background-image: none;
+}
+
+
+.carousel {	
+	width: 100%;
+	top: 20px;
+}
+
+
+
+
+
+/*FEATURE BLOCKED*/
+.featuredBlock {
+	width: 100vmin;
+	max-height: 10vmin;
+	background: #292b38;
+	color: #fff;
+	font-family: 'Raleway', sans-serif;
+	text-align: center;	
+	margin-top: 30px;
+	font-size: 1.2em;
+	padding: 10px;
+	margin-bottom: 10px;
+}
+
+.img-res {
+	width: 50vmin;
+	height: 65vmin;
+}
+
+.view {
+	 margin-right: 0 auto;
+	
+}
+.ft2 {		
+	 margin-bottom: 5px;
+	 margin-top: -250px;
+	 margin-left: 210px;
+	 
+}
+.ft3 {
+margin-top: 10px;
+}
+.ft4 {
+	margin-left: 210px;
+	margin-top: -250px;
+}
+
+
+.featured {
+	margin: auto;
+}
+
+
+/*FOOTER*/
+.myFooter {
+	width: 300vmin;
+	height: 90vmin;
+	background: #F4F4F4;
+	margin-top: 10px;
+	
+}
+	
+/*----------------------*/
+/*FOOTER*/
+footer {
+	font-family: 'Raleway', sans-serif;
+}
+
+.myFooter>p:first-child {
+	font-size: 18px;
+	margin-top: 25px;
+	font-weight: 600;
+	margin-bottom: 50px;
+	text-align: center;
+}
+.myFooter>p:nth-child(4){
+	font-size: 18px;
+	margin-right: 210px;
+	margin-top: -36px;
+	font-weight: 600;
+}
+
+input.mailSign {
+	background: none;
+	border: none;
+	border-bottom: 2px solid #000;
+	outline: none;
+	margin-top: -40px;
+	position: absolute;
+	margin-left: 32px;
+	width: 85vmin;
+}
+
+input.signBtn {
+	margin-top: -54px;
+	background: none;
+	border: none;
+	border-bottom: 2px solid #000;
+	outline: none;
+	font-size: 14px;
+	font-weight: 800;
+	position: absolute;
+	margin-left: 220px;
+	padding-left: 96px;
+	padding-right: 0;
+}
+
+
+
+
+
+
+.footDetail {
+	font-size: 14px;
+	margin-top: 20px;
+}
+
+/*----------------------*/
+/*FOOTER -> MY ACCOUNT*/
+.myAccount {
+	margin-left: -30px;
+	margin-top: -40px;
+	width: 50vmin;
+	height: 20vmin
+}
+.myAccount ul li:first-child {
+	font-size: 16px;
+	font-weight: 600;
+}
+.myAccount ul li{
+	margin-top: 5px;
+	margin-left: 73px;
+	padding-bottom: 3px;
+}
+.myAccount a {
+	color: #000;
+
+}
+
+
+/*----------------------*/
+/*FOOTER  --> CUSTOMER SERVICE*/
+.custService {
+	margin-top: 0px;
+}
+.vertical{
+	font-size: 16px;
+	font-weight: 600;
+	margin-bottom: 20px;
+		-ms-writing-mode: tb-rl; /* old syntax. IE */
+	-webkit-writing-mode: vertical-rl;
+	-moz-writing-mode: vertical-rl;
+	-ms-writing-mode: vertical-rl;
+	writing-mode: vertical-rl; /* new syntax */
+	margin-left: 40px;
+	color: #000;
+}
+.custService ul{
+	margin-top: -165px;
+	margin-left: 70px;
+	font-size: 16px;
+	
+}
+.custService ul li{
+	margin-bottom: 6px;
+}
+
+.custService a{
+	color: #000;
+}
+
+/*----------------------*/
+/*FOOTER --> ABOUT US*/
+.aboutUs {
+	margin-top: -89px;
+	margin-left: 250px;
+	width: 20vmax;
+	height: 25vmin;
+}
+
+.aboutUs ul li:first-child {
+	font-size: 16px;
+	font-weight: 600;
+}
+.aboutUs ul li{
+	margin-top: 5px;
+	padding-bottom: 3px;
+}
+.aboutUs a {
+	color: #000;
+}
+
+.social-icon {
+	margin-top: 20px;
+	margin-left: 272px
+}
+.keepUp{
+	margin-top: -120px;
+	margin-left: 270px;
+	
+}
+.social-icon img {
+	margin-right: 10px;
+}
+	
+	
+
+
+
+

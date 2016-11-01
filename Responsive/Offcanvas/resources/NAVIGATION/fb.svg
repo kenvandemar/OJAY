@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="18px" height="33px" viewBox="0 0 18 33" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 40.3 (33839) - http://www.bohemiancoding.com/sketch -->
+    <title>Shape</title>
+    <desc>Created with Sketch.</desc>
+    <defs>
+        <path d="M1166.04441,33.8615226 L1166.04441,18.8718298 L1161,18.8718298 L1161,13.0301397 L1166.04441,13.0301397 L1166.04441,8.72171859 C1166.04441,3.72192865 1169.09805,1 1173.55807,1 C1175.69454,1 1177.53049,1.15859549 1178.06595,1.23009786 L1178.06595,6.45514715 L1174.97253,6.45675999 C1172.54683,6.45675999 1172.07749,7.60939973 1172.07749,9.30072653 L1172.07749,13.0306773 L1177.86219,13.0306773 L1177.109,18.8723674 L1172.07749,18.8723674 L1172.07749,33.8615226 L1181.94159,33.8615226 C1183.12111,33.8615226 1166.04441,33.8615226 1166.04441,33.8615226 Z" id="path-1"></path>
+        <mask id="mask-2" maskContentUnits="userSpaceOnUse" maskUnits="objectBoundingBox" x="0" y="0" width="21" height="32.8615226" fill="white">
+            <use xlink:href="#path-1"></use>
+        </mask>
+    </defs>
+    <g id="NAVIGATION" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="Desktop" transform="translate(-1233.000000, -954.000000)">
+            <rect id="Rectangle-6" fill="#F4F4F4" x="-1" y="921" width="1440" height="368"></rect>
+            <g id="FOOTER" transform="translate(72.000000, 953.000000)" stroke="#000000" stroke-width="4">
+                <use id="Shape" mask="url(#mask-2)" xlink:href="#path-1"></use>
+            </g>
+        </g>
+    </g>
+</svg>
