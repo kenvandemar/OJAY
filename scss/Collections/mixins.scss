@@ -1,0 +1,23 @@
+@mixin addToBag {
+	color: $pureBlack;
+	border: 1px solid $gray1;
+	padding: 4px;
+	font-family: sans-serif;
+	font-weight: 100;
+	background-color: $pureWhite;
+	padding-left:30px;
+	padding-right: 30px;
+	position: absolute;
+	&:hover {
+		background: $white4;
+	}
+}
+
+@mixin save {
+		font-family:sans-serif;
+		font-weight: 100;
+		font-size: 14px;
+		color: $pureBlack;	
+		position: absolute;
+		line-height: 20px;
+}
